@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/flatly/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-yrfSO0DBjS56u5M+SjWTyAHujrkiYVtRYh2dtB3yLQtUz3bodOeialO59u5lUCFF"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Constructor Pattern</title>
+  </head>
+  <body>
+    <h1 class="titulo">Temporizador</h1>
+    <div class="display">
+      <input
+        type="number"
+        id="numeros_minutos"
+        class="form-control"
+        placeholder="00"
+        min="0"
+      />
+      <input
+        type="number"
+        id="numeros_segundos"
+        class="form-control"
+        placeholder="00"
+        min="0"
+      />
+      <button id="btn" class="btn btn-success btn-block">Empezar</button>
+    </div>
+    <div id="time"></div>
+    <!-- <script src="index.js"></script> -->
+    <script src="algo.js"></script>
+  </body>
+</html>
